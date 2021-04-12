@@ -1,0 +1,37 @@
+var reasons = [
+    "Abhishek agarwal",
+    "Aarush agarwal",
+    "Aarna agarwal",
+    "Amrita agarwal",
+    "Meena agarwal",
+    "Bajrang Lal agarwal",
+    "Ahan agrwal",
+    "Alia agrwal",
+    "Aditya agarwal",
+    "Sonu agrawal",
+    "Roshni agrwal",
+    "Shruti agrwal",
+    "Savitri Devi agarwal",
+]
+
+var images=[
+    "https://clipartstation.com/wp-content/uploads/2017/11/clipart-personnage-7.jpg",
+    "https://i.pinimg.com/originals/49/81/2c/49812c2de0391a43e9056f2f970c2b57.jpg",
+    "https://www.netclipart.com/pp/m/290-2905153_12-year-old-clipart.png",
+    "https://us.123rf.com/450wm/mathibfa/mathibfa1812/mathibfa181200381/114014589-stock-illustration-beautiful-smiling-business-woman-showing-thumbs-up-sign-gesture-like-agree-approve-positive-concept-.jpg?ver=6",
+    "happy-old-woman-grandma-standing-cartoon-vector-18821057.jpg",
+    "man-cartoon-old-bald-isolated-vector-10495803.jpg",
+    "https://media.istockphoto.com/vectors/vector-smart-smiling-schoolboy-index-finger-pointing-up-with-idea-vector-id638491494?k=6&m=638491494&s=612x612&w=0&h=KgqJlABOz_Fi2tq16V66FwJpFXbksn677pzXM5IYJho=",
+    "http://www.kangaroopert.com/wp-content/uploads/2016/05/Lucy-Character-Design-580x763.png",
+    "https://cdn3.f-cdn.com/contestentries/34603/8594369/521cc4149d0a6_thumb900.jpg",
+    "https://www.clipartmax.com/png/middle/211-2111181_businessman-profession-cartoon-businessman-cartoon-png.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizG2QFuDbhU6SiVg2QFzludY9d74kNWYFUQ&usqp=CAU",
+    "https://webstockreview.net/images/teen-clipart-teenager-cartoon-2.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFASBu3gEJrvPRZQzVTIoIB8YaThEBTUY2Mg&usqp=CAU",
+    ]
+     var i = 0;
+     function nextslide() {
+         document.getElementById("reasontext).inner.HTML = reasons[i];
+         document.getElementById("album).src = images[i];
+         i++;
+     }

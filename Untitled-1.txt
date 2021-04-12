@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>My Family Book</title>
+</head>
+<body>
+<p id="firstp">My Family book</p>
+<img id="album"
+src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FFamily-Book-Todd-Parr%2Fdp%2F0316070408&psig=AOvVaw244YpmwG0X9tCvYm3VhGeY&ust=1615459521457000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiw0urFpe8CFQAAAAAdAAAAABAD">
+<div>
+<button type="button"
+onclick="nextslide()"> Next </button>
+</div>
+</body>
+</html>
